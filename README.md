@@ -268,7 +268,7 @@ DEBUG=commit-gen commit-gen --smart
 ### Building from Source
 
 ```bash
-git clone <repository>
+git clone https://github.com/BallSpins/commit-gen.git
 cd commit-gen
 npm install
 npm test
