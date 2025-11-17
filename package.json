@@ -1,0 +1,55 @@
+{
+  "name": "commit-gen",
+  "version": "1.0.0",
+  "description": "Universal commit message generator with smart prediction for any programming language",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "commit-gen": "./cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js",
+    "test": "echo \"No tests specified\" && exit 0",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "message",
+    "generator",
+    "conventional-commits",
+    "cli",
+    "productivity",
+    "developer-tools",
+    "automation",
+    "laravel",
+    "react",
+    "vue",
+    "django",
+    "framework"
+  ],
+  "author": "BallSpins",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BallSpins/commit-gen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BallSpins/commit-gen/issues"
+  },
+  "homepage": "https://github.com/BallSpins/commit-gen#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.12",
+    "yargs": "^17.7.2"
+  },
+  "files": [
+    "src/",
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ]
+}

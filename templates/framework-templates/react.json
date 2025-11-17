@@ -1,0 +1,33 @@
+{
+  "scopes": [
+    "components",
+    "hooks",
+    "pages",
+    "store",
+    "utils",
+    "styles",
+    "config",
+    "api",
+    "router",
+    "context"
+  ],
+  "templates": {
+    "feat": [
+      "add {scope} component",
+      "implement {scope} feature",
+      "create {scope} hook",
+      "introduce {scope} functionality"
+    ],
+    "fix": [
+      "resolve {scope} issue",
+      "fix {scope} rendering",
+      "correct {scope} state",
+      "patch {scope} props"
+    ],
+    "refactor": [
+      "restructure {scope} component",
+      "optimize {scope} performance",
+      "improve {scope} hooks"
+    ]
+  }
+}

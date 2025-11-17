@@ -1,0 +1,39 @@
+{
+  "scopes": [
+    "controllers",
+    "models", 
+    "migrations",
+    "views",
+    "routes",
+    "middleware",
+    "validation",
+    "requests",
+    "resources",
+    "policies",
+    "events",
+    "listeners",
+    "jobs",
+    "mail",
+    "notifications",
+    "commands"
+  ],
+  "templates": {
+    "feat": [
+      "add {scope} functionality",
+      "implement {scope} feature",
+      "create {scope}",
+      "introduce {scope} system"
+    ],
+    "fix": [
+      "resolve {scope} issue",
+      "fix {scope} bug",
+      "correct {scope} validation",
+      "patch {scope} security"
+    ],
+    "refactor": [
+      "restructure {scope} code",
+      "optimize {scope} queries",
+      "improve {scope} performance"
+    ]
+  }
+}

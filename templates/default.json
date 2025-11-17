@@ -1,0 +1,7 @@
+{
+  "projectSpecific": {
+    "auth": ["login", "register", "logout", "session", "permissions"],
+    "api": ["endpoints", "middleware", "validation", "rate-limiting"],
+    "ui": ["components", "layout", "responsive", "animations"]
+  }
+}
