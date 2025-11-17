@@ -4,14 +4,16 @@ A smart commit message generator that analyzes your code changes and suggests ap
 
 ## Features
 
-- Universal language support (JavaScript, PHP, Python, Java, Go, Ruby, C#, etc.)
-- Framework detection (Laravel, React, Vue, Django, Spring, Express, Flask, etc.)
-- Smart prediction based on git changes
-- Conventional commits compliance
-- Interactive and CLI modes
-- Custom templates support
-- Git integration
-- Cross-platform support
+- **Universal language support** - 30+ programming languages
+- **Comprehensive framework detection** - 20+ popular frameworks
+- **Smart prediction** based on git changes and code patterns
+- **Advanced scope detection** for precise commit messages
+- **Multi-platform support** - Web, Mobile, Game Development
+- **Conventional commits** compliance
+- **Interactive and CLI modes**
+- **Custom templates support**
+- **Git integration**
+- **Cross-platform compatibility**
 
 ## Installation
 
@@ -121,24 +123,42 @@ commit-gen --suggest-scope user
 
 ## Supported Languages
 
-- **JavaScript/TypeScript**: .js, .jsx, .ts, .tsx, .mjs, .cjs
-- **PHP**: .php
-- **Python**: .py, .pyx
-- **Java**: .java
-- **Go**: .go
-- **Ruby**: .rb
-- **C#**: .cs
-- And more through file extension detection
+- **JavaScript/TypeScript**: .js, .jsx, .ts, .tsx, .mjs, .cjs, .mts, .cts
+- **PHP**: .php, .php4, .php5, .php7, .phtml
+- **Python**: .py, .pyw, .pyx, .pyc, .pyo, .pyd
+- **Java**: .java, .class, .jar
+- **Go**: .go, .mod, .sum
+- **Ruby**: .rb, .rbw, .rake, .gemspec
+- **C#**: .cs, .csx
+- **C/C++**: .c, .cpp, .cc, .cxx, .h, .hpp, .hh, .hxx
+- **Rust**: .rs, .rlib
+- **Swift**: .swift
+- **Kotlin**: .kt, .kts
+- **Scala**: .scala, .sc
+- **Dart**: .dart
+- **And 20+ more languages** through advanced file extension detection
 
 ## Supported Frameworks
 
+### Web Frameworks
 - **PHP**: Laravel, Symfony
-- **JavaScript**: React, Vue, Angular, Express, Node.js
+- **JavaScript/TypeScript**: React, Vue, Angular, Next.js, Nuxt, Svelte, SolidJS
+- **Node.js**: Express, NestJS, Fastify
 - **Python**: Django, Flask, FastAPI
-- **Java**: Spring Boot, Jakarta EE
+- **Java**: Spring, JavaFX
+- **Ruby**: Rails
 - **Go**: Gin, Echo
-- **Ruby**: Rails, Sinatra
-- **C#**: .NET, ASP.NET Core
+- **.NET**: ASP.NET
+
+### Mobile Frameworks
+- **Flutter** (Dart)
+- **React Native** (JavaScript/TypeScript)
+
+### Game Development
+- **Unity** (C#)
+- **Godot** (GDScript)
+
+### And many more with automatic pattern detection
 
 ## How Smart Prediction Works
 
@@ -299,5 +319,7 @@ For issues and feature requests, please create an issue in the GitHub repository
 
 ## Version History
 
+- **1.1.0**: Expanded framework support (20+ frameworks) and language detection (30+ languages)
+- **1.0.1**: Fixed installation instructions for scoped package
 - **1.0.0**: Initial release with universal language support
 - Features: Smart prediction, framework detection, conventional commits
