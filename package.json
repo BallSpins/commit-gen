@@ -1,6 +1,6 @@
 {
   "name": "@ballspins/commit-gen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Universal commit message generator with smart prediction for any programming language",
   "main": "src/index.js",
   "type": "module",
