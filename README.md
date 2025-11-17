@@ -17,12 +17,12 @@ A smart commit message generator that analyzes your code changes and suggests ap
 
 ### Global Installation (Recommended)
 ```bash
-npm install -g commit-gen
+npm install -g @ballspins/commit-gen
 ```
 
 ### Using npx (No Installation Required)
 ```bash
-npx commit-gen [options]
+npx @ballspins/commit-gen [options]
 ```
 
 ### Manual Installation

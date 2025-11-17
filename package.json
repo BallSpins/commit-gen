@@ -1,11 +1,11 @@
 {
-  "name": "commit-gen",
+  "name": "@ballspins/commit-gen",
   "version": "1.0.0",
   "description": "Universal commit message generator with smart prediction for any programming language",
   "main": "src/index.js",
   "type": "module",
   "bin": {
-    "commit-gen": "./cli.js"
+    "commit-gen": "cli.js"
   },
   "scripts": {
     "start": "node cli.js",
@@ -32,7 +32,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BallSpins/commit-gen.git"
+    "url": "git+https://github.com/BallSpins/commit-gen.git"
   },
   "bugs": {
     "url": "https://github.com/BallSpins/commit-gen/issues"
@@ -51,5 +51,6 @@
     "cli.js",
     "README.md",
     "LICENSE"
-  ]
+  ],
+  "devDependencies": {}
 }
